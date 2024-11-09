@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: Test Output
         run: echo "Hello, World!"
+  conntect-remote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Show databases
+        run: mysql -h ${{ secrets.DB_HOSTNAME }} --port 3306 -u${{ secrets.DB_USERNAME }} -p${{ secrets.DB_PASSWORD }} -e "show databases;"
