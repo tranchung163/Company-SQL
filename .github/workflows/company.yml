@@ -1,0 +1,9 @@
+name: company
+run-name: Setting up the company database
+on: [push]
+jobs:
+  test-output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Output
+        run: echo "Hello, World!"
