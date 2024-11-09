@@ -12,8 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Show databases
-        env:
-          DB_HOSTNAME: ${{ secrets.DB_HOSTNAME }}
-          DB_USERNAME: ${{ secrets.DB_USERNAME || env.DEFAULT_USERNAME }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-        run: mysql -h "$DB_HOSTNAME" --port 3306 -u"$DB_USERNAME" -p"$DB_PASSWORD" -e "show databases;"
+        run: mysql -h "$DB_HOSTNAME" --port=3306 -u"$DB_USERNAME" -p"$DB_PASSWORD" -e "show databases;"
