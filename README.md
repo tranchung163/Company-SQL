@@ -15,6 +15,7 @@ A desktop application built with Python and Tkinter that provides a user-friendl
 ## Prerequisites
 
 Before running this application, make sure you have the following installed:
+
 - Python 3.x
 - MySQL Server
 - Required Python packages:
@@ -43,11 +44,13 @@ Before running this application, make sure you have the following installed:
 ## Installation
 
 1. Clone this repository:
+
    ```bash
-   git clone [your-repository-url]
+   git clone [repository-url]
    ```
 
 2. Install the required Python packages:
+
    ```bash
    pip install mysql-connector-python pymysql
    ```
@@ -63,6 +66,7 @@ Before running this application, make sure you have the following installed:
 ## Usage
 
 1. Run the application:
+
    ```bash
    python employee_system.py
    ```
@@ -73,24 +77,28 @@ Before running this application, make sure you have the following installed:
    - Data table showing all employee records
 
 ### Adding a New Employee
+
 - Fill in all fields (Employee ID, Name, Date of Birth, Sex, Salary)
 - Name should be entered as "First Last"
 - Date format should be MM/DD/YYYY
 - Click "Insert" button
 
 ### Updating an Employee
+
 - Click on an employee record in the table
 - Fields will automatically populate with the selected employee's data
 - Modify the desired fields
 - Click "Update" button
 
 ### Deleting an Employee
+
 - Enter the Employee ID or select the employee from the table
 - Click "Delete" button
 
 ## Input Validation
 
 The application includes validation for:
+
 - Empty fields
 - Proper name format (First Last)
 - Date format (MM/DD/YYYY)
@@ -124,9 +132,5 @@ The application includes validation for:
 
 ## Author
 
-[Your Name]
-
-## Acknowledgments
-
-- Thanks to all contributors
-- Inspired by [if applicable]
+Ngoc
+Joe
