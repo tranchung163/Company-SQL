@@ -41,6 +41,14 @@ Before running this application, make sure you have the following installed:
    );
    ```
 
+## ER Model
+
+![ER Diagram](./ER_Model.png)
+
+## Relational Model
+
+![Relational Model Diagram](./Relational_Model.png)
+
 ## Installation
 
 1. Clone this repository:
