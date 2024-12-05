@@ -139,6 +139,6 @@ The application includes validation for:
 [Your chosen license]
 
 ## Author
-
 Ngoc
+
 Joe
